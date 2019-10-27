@@ -1,0 +1,16 @@
+/* a=0 b=0 c=1 -> 001 */
+p{
+    font-family: Optima, "Arial Narrow";
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+p.floatDer{
+    float:right;
+    width: 75%;
+}
+
+/* a=0 b=0 c=2 -> 002 */
+p::first-letter{
+    font-size: 1.4em;
+}
